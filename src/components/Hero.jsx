@@ -1,10 +1,11 @@
 import React from 'react';
+import profile from '../assets/profile.png';
 
 const Hero = () => {
     return (
         <section style={styles.hero}>
             <div style={styles.imageWrapper}>
-                <img src="/profile.png" alt="Vishnu Priya" style={styles.profileImage} />
+                <img src={profile} alt="Vishnu Priya" style={styles.profileImage} />
             </div>
             <h3 style={styles.subTitle}>FULL STACK DEVELOPER</h3>
             <h2 style={styles.title}>Vishnu Priya</h2>
